@@ -22,8 +22,10 @@
     "clsx": "^2.1.1",
     "dlx": "^0.2.1",
     "embla-carousel-react": "^8.6.0",
+    "googleapis": "^169.0.0",
     "lucide-react": "^0.561.0",
     "next": "16.0.10",
+    "nodemailer": "^7.0.11",
     "pnpm": "^10.25.0",
     "react": "19.2.1",
     "react-dom": "19.2.1",
@@ -35,6 +37,7 @@
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
+    "@types/nodemailer": "^7.0.4",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "babel-plugin-react-compiler": "1.0.0",

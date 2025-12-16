@@ -659,7 +659,7 @@ export const faqs = [
 
 export const contactDetails = {
   address: "1401 21st ST #13807 Sacramento, CA, 95811, US",
-  email: "info@mimedcarellc.com",
+  email: "info@jzdlabs.com",
   phone: "+1 916-252-1833",
 };
 
