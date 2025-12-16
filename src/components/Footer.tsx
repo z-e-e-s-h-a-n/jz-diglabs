@@ -1,5 +1,6 @@
 import { contactDetails, mainMenu, servicesMenu } from "@/lib/constants";
 import { Facebook, Instagram, Linkedin } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
@@ -7,7 +8,9 @@ const Footer = () => {
     <footer className="footer">
       <div>
         <div>
-          <h4>Pemogan</h4>
+          <Link href="/">
+            <Image src="/images/logo.png" alt="Logo" width={180} height={60} />
+          </Link>
           <p>
             Whether you need help with billing, enrolment, or support, our
             experts are just a message away. Reach out today.
