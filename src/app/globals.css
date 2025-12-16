@@ -125,7 +125,7 @@
   }
 
   body {
-    @apply relative mx-auto bg-background text-foreground font-primary max-w-[1400px];
+    @apply relative mx-auto bg-background text-foreground font-primary max-w-350;
   }
 
   button {
