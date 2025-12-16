@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header className="header">
       <Link href="/">
-        <Image src="/images/logo.png" alt="Logo" width={180} height={60} />
+        <Image src="/images/logo.svg" alt="Logo" width={180} height={60} />
       </Link>
       <MobileNav />
       <Button href="/contact" className="hidden lg:block">

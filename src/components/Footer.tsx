@@ -9,7 +9,7 @@ const Footer = () => {
       <div>
         <div>
           <Link href="/">
-            <Image src="/images/logo.png" alt="Logo" width={180} height={60} />
+            <Image src="/images/logo.svg" alt="Logo" width={180} height={60} />
           </Link>
           <p>
             Whether you need help with billing, enrolment, or support, our
