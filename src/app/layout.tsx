@@ -21,6 +21,10 @@ export const metadata: Metadata = {
 const RootLayout = ({ children }: AppLayoutProps) => {
   return (
     <html lang="en">
+      <meta
+        name="google-site-verification"
+        content="4q94dqXOToNxmtg0IU5hWjm4SxT_D9Zn2OUkbmT_1zQ"
+      />
       <body
         className={`${primaryFont.variable} ${secondaryFont.variable} antialiased`}
       >
