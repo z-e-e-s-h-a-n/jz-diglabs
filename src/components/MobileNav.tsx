@@ -8,6 +8,7 @@ import {
 import { mainMenu } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 import { ChevronDown, TextAlignEnd } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -38,7 +39,14 @@ const Navigation = ({ className, isMobile }: NavigationProps) => {
             className={cn("group", pathname === href ? "active" : "")}
             onClick={() => (isMobile ? toggleSubMenu(label, !!subMenu) : null)}
           >
-            <Link href={href}>{label}</Link>
+            <Link href="/">
+              <Image
+                src="/images/logo.svg"
+                alt="Logo"
+                width={180}
+                height={60}
+              />
+            </Link>
             {subMenu && <ChevronDown />}
             {subMenu && (
               <ul className={cn("hidden", openMenu === label && "active")}>
