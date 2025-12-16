@@ -39,14 +39,7 @@ const Navigation = ({ className, isMobile }: NavigationProps) => {
             className={cn("group", pathname === href ? "active" : "")}
             onClick={() => (isMobile ? toggleSubMenu(label, !!subMenu) : null)}
           >
-            <Link href="/">
-              <Image
-                src="/images/logo.svg"
-                alt="Logo"
-                width={180}
-                height={60}
-              />
-            </Link>
+            <Link href={href}>{label}</Link>
             {subMenu && <ChevronDown />}
             {subMenu && (
               <ul className={cn("hidden", openMenu === label && "active")}>
@@ -77,11 +70,16 @@ const MobileNav = () => {
           className="z-100 p-8 items-start gap-8 lg:hidden overflow-y-auto"
         >
           <SheetClose>
-            <Link href="/" className="text-2xl">
-              Pemogan
+            <Link href="/">
+              <Image
+                src="/images/logo.svg"
+                alt="Logo"
+                width={180}
+                height={60}
+              />
             </Link>
           </SheetClose>
-          <Navigation />
+          <Navigation isMobile />
         </SheetContent>
       </Sheet>
     </>
