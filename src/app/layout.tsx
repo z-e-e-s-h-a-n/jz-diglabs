@@ -13,9 +13,9 @@ const secondaryFont = Instrument_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Crown Digital Labs | Web, Mobile, Cloud & DevOps",
+  title: "JZ Digital Labs | Web, Mobile, Cloud & DevOps",
   description:
-    "Crown Digital Labs provides expert software development, including web & mobile apps, UI/UX design, cloud solutions, and DevOps for scalable digital products.",
+    "JZ Digital Labs provides expert software development, including web & mobile apps, UI/UX design, cloud solutions, and DevOps for scalable digital products.",
 };
 
 const RootLayout = ({ children }: AppLayoutProps) => {

@@ -1,12 +1,15 @@
 {
-  "name": "crown-diglabs",
+  "name": "jz-diglabs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "next-sitemap --config sitemap.config.cjs",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "lint:fix": "next lint --fix",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
@@ -25,6 +28,7 @@
     "googleapis": "^169.0.0",
     "lucide-react": "^0.561.0",
     "next": "16.0.10",
+    "next-sitemap": "^4.2.3",
     "nodemailer": "^7.0.11",
     "pnpm": "^10.25.0",
     "react": "19.2.1",
