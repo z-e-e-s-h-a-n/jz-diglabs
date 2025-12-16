@@ -30,7 +30,7 @@ const HeroSection = () => {
       <div>
         <div>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <Button>Get Started</Button>
+          <Button href="#contact-section">Get Started</Button>
         </div>
         <h2>Our Code</h2>
       </div>

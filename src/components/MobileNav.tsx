@@ -14,9 +14,10 @@ import { useState } from "react";
 
 interface NavigationProps {
   className?: string;
+  isMobile?: boolean;
 }
 
-const Navigation = ({ className }: NavigationProps) => {
+const Navigation = ({ className, isMobile }: NavigationProps) => {
   const [openMenu, setOpenMenu] = useState("");
   const pathname = usePathname();
 
@@ -35,7 +36,7 @@ const Navigation = ({ className }: NavigationProps) => {
           <div
             key={label}
             className={cn("group", pathname === href ? "active" : "")}
-            onClick={() => toggleSubMenu(label, !!subMenu)}
+            onClick={() => (isMobile ? toggleSubMenu(label, !!subMenu) : null)}
           >
             <Link href={href}>{label}</Link>
             {subMenu && <ChevronDown />}

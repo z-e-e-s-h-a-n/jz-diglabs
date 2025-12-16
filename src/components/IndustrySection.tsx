@@ -13,7 +13,9 @@ const IndustrySection = () => {
           that streamline operations, enhance user experiences, and accelerate
           business growth.
         </p>
-        <Button size="lg">Discover Now</Button>
+        <Button href="#contact-section" size="lg">
+          Discover Now
+        </Button>
       </div>
       <ul>
         {industriesMenu.map(({ label, href }) => {

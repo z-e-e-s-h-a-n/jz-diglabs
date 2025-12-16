@@ -29,7 +29,7 @@ const CaseStudySection = () => {
         })}
       </ul>
 
-      <Button>All Cases</Button>
+      <Button href="/case-study">All Cases</Button>
     </section>
   );
 };

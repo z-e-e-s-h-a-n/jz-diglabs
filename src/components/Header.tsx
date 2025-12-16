@@ -8,7 +8,9 @@ const Header = () => {
     <header className="header">
       <Link href="/">Pemogan</Link>
       <MobileNav />
-      <Button className="hidden lg:block">Contact Us</Button>
+      <Button href="/contact" className="hidden lg:block">
+        Contact Us
+      </Button>
     </header>
   );
 };

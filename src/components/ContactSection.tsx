@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const ContactSection = () => {
   return (
-    <section className="contact-section">
+    <section id="contact-section" className="contact-section">
       <div>
         <ContactForm title="Ready to Start Your Project?" />
         <Image

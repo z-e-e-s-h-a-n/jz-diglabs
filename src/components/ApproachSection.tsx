@@ -13,7 +13,9 @@ const ApproachSection = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
             blandit ligula vel vestibulum commodo.
           </p>
-          <Button size="lg">Discover Now</Button>
+          <Button href="#contact-section" size="lg">
+            Discover Now
+          </Button>
         </div>
         <div className="basis-full lg:basis-1/2 relative">
           <Image

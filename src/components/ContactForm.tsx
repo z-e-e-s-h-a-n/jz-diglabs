@@ -14,7 +14,7 @@ import { LoaderCircle } from "lucide-react";
 interface ContactFormProps {
   title?: string;
   message?: string;
-  classname?: string;
+  className?: string;
   titleCn?: string;
   messageCn?: string;
 }
@@ -22,7 +22,7 @@ interface ContactFormProps {
 const ContactForm = ({
   title,
   message,
-  classname,
+  className,
   titleCn,
   messageCn,
 }: ContactFormProps) => {
@@ -72,7 +72,7 @@ const ContactForm = ({
 
   return (
     <Form {...form}>
-      <form onSubmit={form.handleSubmit(onSubmit)} className={classname}>
+      <form onSubmit={form.handleSubmit(onSubmit)} className={className}>
         <div>
           {title && <h3 className={titleCn}>{title}</h3>}
           {message && <p className={messageCn}>{message}</p>}

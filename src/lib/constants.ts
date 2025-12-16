@@ -219,7 +219,7 @@ export const industriesDetails = [
     slug: "fintech",
     title: "FinTech",
     subtitle: "Secure, scalable financial technology solutions",
-    imageUrl: "/images/industry-image.png",
+    imageUrl: "/images/industry-image-1.png",
     description:
       "We build robust FinTech solutions that prioritize security, compliance, and performance while delivering seamless digital financial experiences.",
     solutions: [
@@ -248,7 +248,7 @@ export const industriesDetails = [
     slug: "healthtech",
     title: "HealthTech",
     subtitle: "Technology that improves healthcare delivery",
-    imageUrl: "/images/industry-image.png",
+    imageUrl: "/images/industry-image-2.png",
     description:
       "We develop HealthTech solutions that streamline healthcare operations and enhance patient engagement while ensuring data privacy.",
     solutions: [
@@ -276,7 +276,7 @@ export const industriesDetails = [
     slug: "ecommerce",
     title: "E-commerce",
     subtitle: "High-converting online shopping experiences",
-    imageUrl: "/images/industry-image.png",
+    imageUrl: "/images/industry-image-3.png",
     description:
       "We create scalable e-commerce platforms designed to boost conversions, streamline operations, and enhance customer experiences.",
     solutions: [
@@ -304,7 +304,7 @@ export const industriesDetails = [
     slug: "edtech",
     title: "EdTech",
     subtitle: "Engaging digital learning platforms",
-    imageUrl: "/images/industry-image.png",
+    imageUrl: "/images/industry-image-1.png",
     description:
       "We build EdTech platforms that empower educators and engage learners through interactive and scalable digital solutions.",
     solutions: [
@@ -332,7 +332,7 @@ export const industriesDetails = [
     slug: "real-estate",
     title: "Real Estate",
     subtitle: "Digital solutions for modern real estate businesses",
-    imageUrl: "/images/industry-image.png",
+    imageUrl: "/images/industry-image-2.png",
     description:
       "We develop real estate platforms that simplify property management, enhance customer experience, and drive smarter decisions.",
     solutions: [
@@ -360,7 +360,7 @@ export const industriesDetails = [
     slug: "logistics",
     title: "Logistics",
     subtitle: "Smart logistics & supply chain solutions",
-    imageUrl: "/images/industry-image.png",
+    imageUrl: "/images/industry-image-3.png",
     description:
       "We build logistics platforms that optimize supply chains, improve visibility, and increase operational efficiency.",
     solutions: [
@@ -388,7 +388,7 @@ export const industriesDetails = [
     slug: "saas",
     title: "SaaS & Startups",
     subtitle: "Build, scale, and grow SaaS products",
-    imageUrl: "/images/industry-image.png",
+    imageUrl: "/images/industry-image-1.png",
     description:
       "We partner with startups and SaaS companies to build scalable, secure, and growth-ready software products.",
     solutions: [
@@ -584,8 +584,99 @@ export const teams = [
   },
 ];
 
+export const faqs = [
+  {
+    question: "What services does your software agency provide?",
+    answer:
+      "We offer end-to-end software development services including web development, mobile app development, UI/UX design, cloud & DevOps, MVP development, and ongoing maintenance & support.",
+  },
+  {
+    question: "Which industries do you specialize in?",
+    answer:
+      "We work with FinTech, HealthTech, E-commerce, EdTech, Real Estate, Logistics, and SaaS & startups, delivering solutions tailored to industry-specific challenges.",
+  },
+  {
+    question: "Do you work with startups as well as enterprises?",
+    answer:
+      "Yes. We collaborate with early-stage startups to build MVPs and validate ideas, and with established companies to scale, optimize, and modernize their digital products.",
+  },
+  {
+    question: "How do you approach MVP development?",
+    answer:
+      "Our MVP approach focuses on rapid development, core feature prioritization, and scalability. We help you launch quickly, gather user feedback, and iterate efficiently.",
+  },
+  {
+    question: "What technologies do you use for development?",
+    answer:
+      "We use modern technologies such as React, Next.js, Node.js, React Native, Flutter, AWS, Docker, Kubernetes, PostgreSQL, and other proven tools based on project needs.",
+  },
+  {
+    question: "Do you provide UI/UX design services?",
+    answer:
+      "Yes. We provide complete UI/UX services including user research, wireframes, prototypes, design systems, and high-fidelity designs focused on usability and conversion.",
+  },
+  {
+    question: "How do you ensure code quality and security?",
+    answer:
+      "We follow best practices like code reviews, automated testing, secure authentication, cloud security standards, and compliance requirements—especially for FinTech and HealthTech projects.",
+  },
+  {
+    question: "Will my application be scalable in the future?",
+    answer:
+      "Absolutely. We design cloud-ready, scalable architectures that grow with your business, ensuring performance, reliability, and flexibility as demand increases.",
+  },
+  {
+    question: "Do you offer post-launch maintenance and support?",
+    answer:
+      "Yes. We provide ongoing maintenance, performance monitoring, security updates, feature enhancements, and optional 24/7 support plans.",
+  },
+  {
+    question: "How long does a typical project take?",
+    answer:
+      "Project timelines vary by scope. MVPs typically take 6–10 weeks, while larger platforms may take several months. We provide clear timelines after requirement analysis.",
+  },
+  {
+    question: "How do you communicate project progress?",
+    answer:
+      "We maintain transparent communication through regular updates, milestone reviews, and collaboration tools like Slack, Jira, and scheduled calls.",
+  },
+  {
+    question: "Can you work with existing systems or teams?",
+    answer:
+      "Yes. We can integrate with existing systems, APIs, or internal teams and help modernize legacy platforms or extend current functionality.",
+  },
+  {
+    question: "Do you sign NDAs and protect intellectual property?",
+    answer:
+      "Yes. We are happy to sign NDAs, and all intellectual property and source code belong to you upon project completion.",
+  },
+  {
+    question: "How can we start a project with your team?",
+    answer:
+      "You can get started by contacting us through our website. We’ll schedule a discovery call to understand your goals and recommend the best solution.",
+  },
+];
+
 export const contactDetails = {
   address: "1401 21st ST #13807 Sacramento, CA, 95811, US",
   email: "info@mimedcarellc.com",
   phone: "+1 916-252-1833",
 };
+
+export const testimonials = [
+  {
+    name: "David Anderson",
+    title: "“Profesional”",
+    imageUrl: "/images/testimonial-1.png",
+  },
+  {
+    name: "Robert Lewis",
+    title: "“Impressive”",
+    imageUrl: "/images/testimonial-2.png",
+  },
+  {
+    name: "John Mitchell",
+    title: "“Good Quality”",
+    imageUrl: "/images/testimonial-3.png",
+  },
+];
