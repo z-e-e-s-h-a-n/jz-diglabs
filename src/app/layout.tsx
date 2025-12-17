@@ -13,7 +13,7 @@ const secondaryFont = Instrument_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "JZ Digital Labs | Web, Mobile, Cloud & DevOps",
+  title: "JZ Digital Labs | Building Scalable Digital Products",
   description:
     "JZ Digital Labs provides expert software development, including web & mobile apps, UI/UX design, cloud solutions, and DevOps for scalable digital products.",
 };

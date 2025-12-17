@@ -5,7 +5,13 @@ import ServiceDetails from "@/components/ServiceDetails";
 import TeamSection from "@/components/TeamSection";
 import VisionSection from "@/components/VisionSection";
 import WhyChooseUsSection from "@/components/WhyChooseUs";
-import React from "react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Us | JZ Digital Labs",
+  description:
+    "Learn about JZ Digital Labs — our mission, team, values, and passion for building digital products that drive business impact and long-term growth.",
+};
 
 const AboutPage = () => {
   return (
