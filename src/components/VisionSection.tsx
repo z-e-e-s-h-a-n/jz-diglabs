@@ -9,16 +9,16 @@ const VisionSection = () => {
         <h3>Values And Vision</h3>
         <ul>
           <li>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-            blandit ligula vel vestibulum commodo.
+            We put integrity and excellence at the core of every digital
+            solution we build.
           </li>
           <li>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-            blandit ligula vel vestibulum commodo.
+            Our vision is to empower businesses through technology that drives
+            real impact and growth.
           </li>
           <li>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-            blandit ligula vel vestibulum commodo.
+            We value clarity, collaboration, and commitment in every client
+            partnership we forge.
           </li>
         </ul>
       </div>

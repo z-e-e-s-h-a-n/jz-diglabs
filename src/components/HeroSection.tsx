@@ -16,7 +16,7 @@ const HeroSection = () => {
         <div>
           <div>
             <span />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>We build tailored digital products that drive growth.</p>
           </div>
           <Counter count={12} title="Years Of Experience" className="p-6" />
         </div>
@@ -29,7 +29,7 @@ const HeroSection = () => {
       />
       <div>
         <div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>Focused on scalable software built for real results.</p>
           <Button href="#contact-section">Get Started</Button>
         </div>
         <h2>Our Code</h2>

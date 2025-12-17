@@ -10,9 +10,9 @@ const TestimonialSection = () => {
       <div>
         <div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-            blandit ligula vel vestibulum commodo. Mauris eget aliquet nulla,
-            quis ultricies magna.
+            Clients trust us for clarity, quality, and steady delivery. Our work
+            speaks through partnerships built to last. We help teams scale with
+            confidence.
           </p>
           <Counter
             count={154}
@@ -22,8 +22,7 @@ const TestimonialSection = () => {
         </div>
         <div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-            blandit ligula vel vestibulum commodo.
+            Our team blends strategic vision with hands-on technical excellence.
           </p>
           <Counter
             count={2554}

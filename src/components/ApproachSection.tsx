@@ -10,8 +10,8 @@ const ApproachSection = () => {
         <div className="space-y-4 basis-full lg:basis-1/2">
           <h3>Our Approach</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-            blandit ligula vel vestibulum commodo.
+            We combine deep strategy with modern tech to solve real business
+            challenges. Our process ensures measurable results.
           </p>
           <Button href="#contact-section" size="lg">
             Discover Now
